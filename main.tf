@@ -63,6 +63,7 @@ resource "azurerm_virtual_network" "demo" {
 
   tags = {
     environment = "Demo"
+    demo = "demo"
   }
 }
 
